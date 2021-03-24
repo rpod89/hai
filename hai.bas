@@ -63,6 +63,7 @@ FUNCTION SetPrice(price Uint64) Uint64
 20 IF require(price > 0, "invalid value") > 0 THEN GOTO 999
 30 STORE("price", price)
 40 RETURN 0
+999 RETURN 999
 END FUNCTION
 
 // -- Private --

@@ -1,0 +1,6 @@
+*.so
+wallet.*
+darch
+*.swp
+*.swap
+*log*

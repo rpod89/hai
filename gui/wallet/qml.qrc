@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>files/cube.gif</file>
+        <file>files/dero_logo_w.png</file>
+    </qresource>
+</RCC>

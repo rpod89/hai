@@ -1,3 +1,0 @@
-
-max elgamal uint64 21*100000.
-

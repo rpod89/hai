@@ -36,11 +36,11 @@ Window {
         animImage.mirror = swp
 
         if (swp === true) {
-            testing.buy()
+            libhai.buy()
         }
 
         if (swp === false) {
-            testing.sell()
+            libhai.sell()
         }
 
         root.swap = !root.swap

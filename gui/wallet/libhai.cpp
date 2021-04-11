@@ -58,8 +58,8 @@ void Libhai::getBalances()
     auto balance_d = static_cast<float>(deros()) / decimals;
     auto balance_t = static_cast<float>(tokens()) / decimals;
 
-    QString dero_f = QString::number(deros()).setNum(balance_d,'f',6);
-    QString token_f = QString::number(tokens()).setNum(balance_t,'f',6);
+    QString dero_f = QString::number(deros()).setNum(balance_d,'f',5);
+    QString token_f = QString::number(tokens()).setNum(balance_t,'f',5);
 
     emit deroUpdate(QVariant(dero_f));
     emit tokenUpdate(QVariant(token_f));
